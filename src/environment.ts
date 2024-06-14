@@ -40,7 +40,7 @@ export class Environment {
         mainButtonPanel.margin = 0.2;
         mainManager.addControl(mainButtonPanel);
 
-        // Create an anchor so that the main panel doesn't move
+        // Create an anchor so that the main ssadpanel doesn't move
         var anchor = new TransformNode("");
         mainButtonPanel.linkToTransformNode(anchor);
         mainButtonPanel.position =  new Vector3(0,-2,-3);
